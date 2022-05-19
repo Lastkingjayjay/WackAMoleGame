@@ -13,5 +13,24 @@
 }
 
 .mole {
-  background-color: blue;
+  background-image: url("images/mole.jpg");
+  background-size: cover;
+}
+
+* {
+  background: linear-gradient(to right, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  background-size: 400% 400%;
+  animation: grad 10s ease infinite;
+}
+
+@keyframes grad {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
 }
