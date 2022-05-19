@@ -18,6 +18,7 @@
 }
 
 * {
+  background-color: #4158d0;
   background: linear-gradient(to right, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
   background-size: 400% 400%;
   animation: grad 10s ease infinite;
